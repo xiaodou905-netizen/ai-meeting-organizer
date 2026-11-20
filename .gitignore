@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.vercel/
+.DS_Store
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+*.env
+.envrc
+!.env.example
+.npmrc
+secrets/
+.secrets/
+credentials/
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
